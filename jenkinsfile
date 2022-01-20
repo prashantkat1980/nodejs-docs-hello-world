@@ -5,11 +5,7 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-        git 'https://github.com/prashantkat1980/nodejs-docs-hello-world'
-      }
-    }
+    
      
     stage('Build') {
       steps {
